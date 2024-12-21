@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Tungsten;
+  src: url(tungsten.woff);
+}
+
 *{
 
 	box-sizing: border-box;
@@ -16,10 +21,12 @@
 	--h8: 16px;
 	--btnText: 26px;
 
-	--titleFont: serif;
+	--titleFont: Tungsten;
 	--bodyFont: sans-serif;
 
 }
+
+
 
 button {
 
@@ -122,7 +129,7 @@ body {
 .hero-body {
 
 			font-size: var(--btnText);
-			font-weight: 600;
+			font-weight: 400;
 			font-family: var(--bodyFont);
 			text-align: center;
 
